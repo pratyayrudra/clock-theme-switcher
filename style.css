@@ -71,6 +71,7 @@ a {
 
 .container button:focus {
   outline: none;
+  box-shadow: none;
 }
 
 .container span {
