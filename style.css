@@ -80,6 +80,10 @@ a {
   color: var(--text-color);
 }
 
+.container a svg {
+  margin-top: 1rem;
+}
+
 @media (max-width: 425px) {
   .container p {
     font-size: 3.4rem;
