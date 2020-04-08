@@ -54,6 +54,7 @@ a {
   color: var(--button);
   border: 0;
   cursor: pointer;
+  box-shadow: 1px 1px 20px var(--button);
 }
 
 .container button::before {
@@ -66,12 +67,12 @@ a {
 }
 
 .container button:hover {
-  box-shadow: 1px 1px 20px var(--button);
+  border: 0.1px solid var(--text-color);
 }
 
 .container button:focus {
   outline: none;
-  box-shadow: none;
+  border: none;
 }
 
 .container span {
